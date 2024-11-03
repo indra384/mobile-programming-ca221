@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:myapp/pages/home_page.dart';
+import 'package:myapp/pages/search_page.dart';
 import 'package:myapp/resources/colors.dart';
 
 class MainPage extends StatefulWidget {
@@ -24,9 +25,7 @@ class _MainPageState extends State<MainPage> {
   // List halaman yang tersedia
   final List<Widget> _pages = [
     const HomePage(),
-    const Center(
-      child: Text('Search'),
-    ),
+   const SearchPage(),
     const Center(
       child: Text('Create Moment'),
     ),
